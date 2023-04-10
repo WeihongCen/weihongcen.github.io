@@ -8,7 +8,10 @@
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
-.dark-mode {
+.light-background {
+    background-color: #bed7b9;
+}
+.dark-background {
     background-color: #012622;
 }
 .center {
@@ -16,23 +19,27 @@
     margin: auto;
 }
 
-h1, p, a {
+h1, h2, p, a {
     color: white;
     word-wrap: break-word;
     hyphens: auto;
     font-weight: 300;
 }
-h1, p {
+h1, h2, p {
     padding: 1vw 0vw;
 }
 h1 {
     font-size: min(80px, 5vw);
 }
+h2 {
+    font-size: min(60px, 5vw);
+}
 p {
     font-size: min(30px, 3vw);
 }
 a {
-    font-size: min(20px, 2vw);
+    font-size: min(20px, 1.5vw);
+    text-align: center;
 }
 
 /* header */
@@ -40,21 +47,23 @@ header {
     display: flex;
     align-items: center;
     background-color: #003B36;
-    padding: 1vw 0 1vw 10vw;
+    padding: 0.5vw 0 0.5vw 10vw;
 }
 header img {
-    height: 4vw;
+    height: 2.5vw;
 }
 nav li {
     display: inline-block;
+    width: 12vw;
 }
 nav li a:hover {
-    background-color: #012622;
+    text-shadow: 0 0 5px #ffffff, 0 0 5px #ffc76c;
 }
 nav li a {
     display: block;
     text-decoration: none;
-    padding: 1vw 2vw;
+    padding: 0.5vw 2vw;
+    transition: text-shadow 0.3s;
 }
 ul {
     display: inline-block;
@@ -71,11 +80,10 @@ ul {
     width: 40vw;
     padding: 6vw 0vw 0vw 10vw;
 }
-
 .profile-frame {
     position: relative;
     float: right;
-    border-radius: 50%;
+    border-radius: 20%;
     background-color: #bed7b9;
     height: 35vw;
     width: 35vw;
@@ -84,7 +92,23 @@ ul {
     justify-content: center;
     align-items: center;
 }
-
 .profile-frame img {
-    width: 18vw;   
+    width: 18vw;
+}
+
+/* games */
+.games {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.games h2, .games p {
+    color: #012622;
+    font-weight: 400;
+    text-align: center;
+}
+.game-gallary {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 10vw 0 10vw;
 }
