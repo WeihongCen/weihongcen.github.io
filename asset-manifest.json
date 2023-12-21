@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8699cf37.css",
-    "main.js": "/static/js/main.fc4d1e2c.js",
+    "main.js": "/static/js/main.b11a19f3.js",
     "static/media/electricity-demo.png": "/static/media/electricity-demo.2dd27a3f906f50da5583.png",
     "static/media/jpl-paper.pdf": "/static/media/jpl-paper.d02ec3ac60364736c14b.pdf",
     "static/media/covid-bs.png": "/static/media/covid-bs.dba45e0ad8479d31c1db.png",
@@ -24,10 +24,10 @@
     "static/media/resume-icon.png": "/static/media/resume-icon.9f0c68e0001f819f514a.png",
     "index.html": "/index.html",
     "main.8699cf37.css.map": "/static/css/main.8699cf37.css.map",
-    "main.fc4d1e2c.js.map": "/static/js/main.fc4d1e2c.js.map"
+    "main.b11a19f3.js.map": "/static/js/main.b11a19f3.js.map"
   },
   "entrypoints": [
     "static/css/main.8699cf37.css",
-    "static/js/main.fc4d1e2c.js"
+    "static/js/main.b11a19f3.js"
   ]
 }
