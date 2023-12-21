@@ -1,0 +1,27 @@
+article {
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 50px;
+  border-radius: 50px;
+}
+
+article img {
+  display: block;
+  margin: 20px auto;
+  max-width: 1000px;
+  max-height: 300px;
+  border-radius: 10px;
+}
+
+article figcaption {
+  text-align: center;
+}
+
+article p {
+  margin: 20px 0;
+}
+
+article iframe {
+  display: block;
+  margin: 0 auto;
+}

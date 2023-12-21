@@ -1,0 +1,54 @@
+.gallary-card {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 50px;
+  margin-bottom: 100px;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 10px 20px;
+  gap: 100px;
+  cursor: pointer;
+  transition: background-color .3s, transform .1s;
+}
+
+.gallary-card img {
+  height: 250px;
+  width: auto;
+  border-radius: 20px;
+  transition: filter .3s;
+}
+
+.gallary-card button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #275fae;
+  color: white;
+  opacity: 0;
+  cursor: pointer;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 5px 10px;
+  padding: 10px 20px;
+  transition: opacity .3s
+}
+
+.gallary-card:hover {
+  background-color: #cccccc;
+}
+
+.gallary-card:hover button {
+  opacity: 1;
+}
+
+.gallary-card:hover img {
+  filter: brightness(70%)
+}
+
+.gallary-card:active {
+  transform: translateY(5px);
+}

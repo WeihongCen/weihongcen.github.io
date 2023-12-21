@@ -1,0 +1,97 @@
+/*
+  This is the CSS used to style my portfolio website.
+ */
+
+/* flex display */
+header, footer, nav > ul, .introduction, .introduction ul, .introduction a, .gallary {
+  display: flex;
+}
+/* zeroing margin/padding */
+body, nav ul {
+  margin: 0;
+}
+body, .introduction nav > ul {
+  padding: 0;
+}
+
+/* body */
+body {
+  background-image: linear-gradient(180deg, #003B36, #005B19);
+  background-color: #bed7b9;
+}
+main {
+  padding: 50px 100px;
+}
+
+/* font settings */
+h1, h2, h3, p, a, button, figcaption {
+  font-family: "Montserrat", sans-serif;
+}
+h1, h2, h3, p {
+  color: #012622;
+}
+h1 {
+  font-size: 28pt;
+  margin: 0 0 20px 0;
+}
+h2, p {
+  font-size: 18pt;
+  margin: 0;
+  line-height: 1.8;
+  font-weight: normal;
+}
+button {
+  font-size: 20pt;
+}
+a {
+  font-size: 18pt;
+  text-decoration: none;
+}
+.introduction h1, .introduction p {
+  color: white;
+  font-weight: 300;
+  margin: 50px 0;
+}
+
+/* Image */
+.icon {
+  width: 100px;
+}
+
+/* introduction */
+.introduction {
+  background-size: auto 100%;
+  justify-content: space-between;
+  height: 100vh;
+  padding: 0 250px;
+}
+.introduction section, .introduction aside {
+  width: 500px;
+  margin: auto 0;
+}
+.introduction nav > ul {
+  height: 400px;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.introduction li {
+  width: 100%;
+}
+.introduction nav p {
+  padding-left: 20px;
+  padding-bottom: 0;
+  margin: auto 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* interactives */
+.fullscreen {
+  display: block;
+  margin: auto;
+  border: 0;
+  width: 90%;
+  height: 800px;
+}
