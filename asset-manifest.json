@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.8699cf37.css",
+    "main.js": "/static/js/main.fc4d1e2c.js",
+    "static/media/electricity-demo.png": "/static/media/electricity-demo.2dd27a3f906f50da5583.png",
+    "static/media/jpl-paper.pdf": "/static/media/jpl-paper.d02ec3ac60364736c14b.pdf",
+    "static/media/covid-bs.png": "/static/media/covid-bs.dba45e0ad8479d31c1db.png",
+    "static/media/electricity-visual.png": "/static/media/electricity-visual.306fbac2b860d76fc963.png",
+    "static/media/cm-region-trend.png": "/static/media/cm-region-trend.d542bdcf7899a9da368d.png",
+    "static/media/covid-sah.png": "/static/media/covid-sah.3b2782d25c0a373777b5.png",
+    "static/media/jenkins-log.png": "/static/media/jenkins-log.761515e1991a45fd67c7.png",
+    "static/media/jenkins-bot.png": "/static/media/jenkins-bot.870b619cb5bacfb15777.png",
+    "static/media/earth-fourier.png": "/static/media/earth-fourier.9eb8bc2bdca7af8cf26e.png",
+    "static/media/aq-str.png": "/static/media/aq-str.33c25da13d37e70d023c.png",
+    "static/media/pre-addressable.png": "/static/media/pre-addressable.7db95e5d3adbdeeaed12.png",
+    "static/media/earth-FUS.png": "/static/media/earth-FUS.6b1924b224d19e7d4daf.png",
+    "static/media/post-addressable.png": "/static/media/post-addressable.fad1aa42fe66e5319309.png",
+    "static/media/airstrafe-logo.png": "/static/media/airstrafe-logo.e086836c693a0efa280c.png",
+    "static/media/unity-logo.png": "/static/media/unity-logo.a089482e2562e71d305b.png",
+    "static/media/Weihong-Cen-Resume.pdf": "/static/media/Weihong-Cen-Resume.9afe9ee4c8b9ddbf876e.pdf",
+    "static/media/jpl-logo.png": "/static/media/jpl-logo.5fd474965092f6af5e91.png",
+    "static/media/jtb-img.png": "/static/media/jtb-img.ce605f91463d51740119.png",
+    "static/media/portfolio_icon.png": "/static/media/portfolio_icon.8f31b4796b5a14e9ed2b.png",
+    "static/media/resume-icon.png": "/static/media/resume-icon.9f0c68e0001f819f514a.png",
+    "index.html": "/index.html",
+    "main.8699cf37.css.map": "/static/css/main.8699cf37.css.map",
+    "main.fc4d1e2c.js.map": "/static/js/main.fc4d1e2c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8699cf37.css",
+    "static/js/main.fc4d1e2c.js"
+  ]
+}
